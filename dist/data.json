@@ -80,7 +80,7 @@
           "options": ["Tính xác xuất", "Giới hạn dạng vô định", "Tìm diện tích miền giới hạn", "Giải phương trình vi phân"],
           "answer": "Giới hạn dạng vô định",
           "explanation": "Quy tắc l'hopital thường dùng để giải những dạng toán có giới hạn dạng vô định, cụ thể là giới hạn của hàm phân thức có giới hạn 0/0 hoặc vô cùng/vô cùng",
-          "image": "public/l'Hopital.jpg"
+          "image": "l'Hopital.jpg"
         },
         {
           "question": "Số tiếp theo của 8,12,24,60 là số nào?",
@@ -103,7 +103,7 @@
         {
           "question": "Số lớn nhất có 5 chữ số chia hết cho 7 là số nào?",
           "options": ["99995", "99996", "99997", "99999"],
-          "answer": "99996",
+          "answer": "99995",
           "explanation": "Số lớn nhất có 5 chữ số chia hết cho 7 là 99995."
         },
         {
@@ -119,7 +119,7 @@
           "explanation": "Nếu tổng của hai số tự nhiên là một số lẻ, sẽ có dạng a+b=2k+1, với k là số tự nhiên. Khi đó a.b=2k(k+1), là số chẵn"
         },
         {
-          "question": "Trong hệ thập phân, số một triệu tỷ được viết bởi một chữ số 1 và mấy chữ số 0 phía sau?",
+          "question": "Trong hệ thập phân, số một triệu tỷ tỷ được viết bởi một chữ số 1 và mấy chữ số 0 phía sau?",
           "options": ["21", "22", "23", "24"],
           "answer": "24",
           "explanation": "1 triệu là 6 số 0, 1 tỷ là 9 số không, 1 triệu tỷ tỷ là 6 + 9 + 9 = 24"
@@ -146,6 +146,105 @@
           ],
           "answer": "Từ nước mà cây hấp thụ",
           "explanation": "Quá trình quang hợp cây sẽ hấp thự khí CO2 và kết hợp với H2 từ H20 tạo nên Xenlulozon hay quá trình quang phân lý nước, phần Oxi đi ra chính là từ nước"
+        },
+        {
+          "question": "Nước có thể tồn tại ở những thể trạng nào?",
+          "options": [
+            "Rắn, lỏng, khí",
+            "Rắn, khí",
+            "Lỏng, khí",
+            "Lỏng, rắn"
+          ],
+          "answer": "Rắn, lỏng, khí",
+          "explanation": "Nước có thể tồn tại ở ba trạng thái: rắn (băng), lỏng (nước) và khí (hơi nước), tùy thuộc vào nhiệt độ và áp suất."
+        },
+        {
+          "question": "Ánh sáng mặt trời chủ yếu bao gồm loại năng lượng nào?",
+          "options": [
+            "Năng lượng điện",
+            "Năng lượng nhiệt",
+            "Năng lượng quang học",
+            "Năng lượng cơ học"
+          ],
+          "answer": "Năng lượng quang học",
+          "explanation": "Ánh sáng mặt trời chủ yếu bao gồm năng lượng quang học, hay còn gọi là ánh sáng khả kiến, giúp cây thực hiện quang hợp."
+        },
+        {
+          "question": "Chất nào có vai trò quan trọng trong quá trình quang hợp?",
+          "options": [
+            "Oxy",
+            "Carbon dioxide",
+            "Nitrogen",
+            "Hydrogen"
+          ],
+          "answer": "Carbon dioxide",
+          "explanation": "Trong quá trình quang hợp, cây hấp thụ khí CO2 từ không khí và kết hợp với nước để tạo ra glucose và oxy."
+        },
+        {
+          "question": "Cấu trúc nào của tế bào thực hiện chức năng sản xuất năng lượng?",
+          "options": [
+            "Nucleus",
+            "Mitochondria",
+            "Cytoplasm",
+            "Endoplasmic reticulum"
+          ],
+          "answer": "Mitochondria",
+          "explanation": "Mitochondria là cơ quan trong tế bào thực hiện quá trình hô hấp tế bào để sản xuất năng lượng dưới dạng ATP."
+        },
+        {
+          "question": "Vì sao nước lại là dung môi tốt cho nhiều chất?",
+          "options": [
+            "Vì nó có khả năng hòa tan chất khác",
+            "Vì nó rất nóng",
+            "Vì nó có mật độ cao",
+            "Vì nó không phản ứng với các chất khác"
+          ],
+          "answer": "Vì nó có khả năng hòa tan chất khác",
+          "explanation": "Nước là dung môi tốt vì nó có tính chất phân cực, giúp hòa tan nhiều chất khác, đặc biệt là các ion và phân tử có tính phân cực."
+        },
+        {
+          "question": "Chất nào trong thực phẩm cung cấp năng lượng chính cho cơ thể?",
+          "options": [
+            "Protein",
+            "Carbohydrate",
+            "Vitamin",
+            "Khoáng chất"
+          ],
+          "answer": "Carbohydrate",
+          "explanation": "Carbohydrate là nguồn năng lượng chính cho cơ thể, cung cấp glucose, mà tế bào sử dụng để tạo ra năng lượng."
+        },
+        {
+          "question": "Quá trình nào tạo ra năng lượng cho các tế bào trong cơ thể?",
+          "options": [
+            "Quang hợp",
+            "Hô hấp tế bào",
+            "Chuyển hóa",
+            "Phản ứng hạt nhân"
+          ],
+          "answer": "Hô hấp tế bào",
+          "explanation": "Hô hấp tế bào là quá trình chuyển hóa glucose thành năng lượng trong các tế bào, cung cấp ATP cho các hoạt động sống."
+        },
+        {
+          "question": "Khí nào chiếm phần lớn trong thành phần khí quyển của trái đất?",
+          "options": [
+            "Oxy",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Hydrogen"
+          ],
+          "answer": "Nitrogen",
+          "explanation": "Nitrogen chiếm khoảng 78% thành phần khí quyển của trái đất, trong khi oxy chỉ chiếm khoảng 21%."
+        },
+        {
+          "question": "Khí CO2 có vai trò gì trong quang hợp?",
+          "options": [
+            "Là nguồn năng lượng cho quá trình quang hợp",
+            "Cung cấp carbon cho cây để tạo ra glucose",
+            "Cung cấp oxy cho cây",
+            "Làm tăng sự hấp thụ nước"
+          ],
+          "answer": "Cung cấp carbon cho cây để tạo ra glucose",
+          "explanation": "Khí CO2 cung cấp carbon cho cây để tạo ra glucose trong quá trình quang hợp, là nguồn năng lượng cho các tế bào cây."
         },
         {
           "question": "Quá trình máu khi đung nóng lên sẽ trở thành huyết có màu xám mà ta hay ăn gọi là gì?",
@@ -287,6 +386,105 @@
           ],
           "answer": "Cấp phát bộ nhớ động",
           "explanation": "Hàm malloc() trong C được sử dụng để cấp phát bộ nhớ động và trả về con trỏ trỏ đến vùng bộ nhớ đã được cấp phát."
+        },
+        {
+          "question": "Trong Java, từ khóa nào được sử dụng để khai báo một lớp?",
+          "options": [
+            "class",
+            "def",
+            "function",
+            "object"
+          ],
+          "answer": "class",
+          "explanation": "Trong Java, từ khóa 'class' được sử dụng để khai báo một lớp (class), nơi chứa các thuộc tính và phương thức."
+        },
+        {
+          "question": "Trong Java, phương thức nào được sử dụng để so sánh hai chuỗi?",
+          "options": [
+            "equals()",
+            "compareTo()",
+            "match()",
+            "compare()"
+          ],
+          "answer": "equals()",
+          "explanation": "Phương thức 'equals()' trong Java được sử dụng để so sánh hai chuỗi xem chúng có giống nhau hay không."
+        },
+        {
+          "question": "Trong thuật toán sắp xếp, thuật toán nào có độ phức tạp thời gian tốt nhất trong trường hợp trung bình?",
+          "options": [
+            "Quick Sort",
+            "Bubble Sort",
+            "Insertion Sort",
+            "Merge Sort"
+          ],
+          "answer": "Quick Sort",
+          "explanation": "Thuật toán Quick Sort có độ phức tạp thời gian trung bình O(n log n), giúp sắp xếp nhanh hơn so với các thuật toán sắp xếp khác như Bubble Sort (O(n^2))."
+        },
+        {
+          "question": "Thuật toán nào trong học máy sử dụng các 'nút' và 'trọng số' để học và dự đoán?",
+          "options": [
+            "Decision Tree",
+            "Neural Network",
+            "K-Nearest Neighbors",
+            "Linear Regression"
+          ],
+          "answer": "Neural Network",
+          "explanation": "Mạng nơ-ron (Neural Network) sử dụng các 'nút' (neurons) và 'trọng số' (weights) để học các mối quan hệ và đưa ra dự đoán."
+        },
+        {
+          "question": "Thuật toán tìm kiếm nhị phân yêu cầu gì về mảng?",
+          "options": [
+            "Mảng phải được sắp xếp",
+            "Mảng phải có các giá trị duy nhất",
+            "Mảng phải có các giá trị theo thứ tự giảm dần",
+            "Không yêu cầu mảng phải sắp xếp"
+          ],
+          "answer": "Mảng phải được sắp xếp",
+          "explanation": "Thuật toán tìm kiếm nhị phân yêu cầu mảng phải được sắp xếp để có thể tìm kiếm hiệu quả bằng cách chia đôi mảng và loại bỏ một nửa mỗi lần."
+        },
+        {
+          "question": "Trong AI, thuật toán nào sử dụng chiến lược học theo phương pháp thử và sai để tìm ra lời giải tối ưu?",
+          "options": [
+            "K-means",
+            "Q-learning",
+            "Naive Bayes",
+            "Linear Regression"
+          ],
+          "answer": "Q-learning",
+          "explanation": "Q-learning là thuật toán học củng cố (reinforcement learning) sử dụng chiến lược thử và sai để tối ưu hóa quyết định trong môi trường không xác định."
+        },
+        {
+          "question": "Trong Java, từ khóa nào được sử dụng để kế thừa một lớp?",
+          "options": [
+            "implements",
+            "extends",
+            "inherits",
+            "super"
+          ],
+          "answer": "extends",
+          "explanation": "Trong Java, từ khóa 'extends' được sử dụng để kế thừa (inherit) một lớp, cho phép lớp con kế thừa thuộc tính và phương thức của lớp cha."
+        },
+        {
+          "question": "Trong học máy, thuật toán nào dùng để phân loại dữ liệu thành các nhóm riêng biệt?",
+          "options": [
+            "Linear Regression",
+            "Decision Trees",
+            "Clustering",
+            "Logistic Regression"
+          ],
+          "answer": "Clustering",
+          "explanation": "Clustering là một thuật toán học máy không giám sát dùng để phân loại dữ liệu thành các nhóm hoặc cụm riêng biệt mà không cần nhãn dữ liệu."
+        },
+        {
+          "question": "Java có thể dùng để phát triển ứng dụng nào sau đây?",
+          "options": [
+            "Ứng dụng di động Android",
+            "Ứng dụng web",
+            "Ứng dụng desktop",
+            "Tất cả các trên"
+          ],
+          "answer": "Tất cả các trên",
+          "explanation": "Java có thể được sử dụng để phát triển ứng dụng di động Android, ứng dụng web (với các framework như Spring), và ứng dụng desktop (với Swing hoặc JavaFX)."
         },
         {
           "question": "Trong OOP, phương pháp kế thừa cho phép lớp con làm gì?",
@@ -431,7 +629,7 @@
           "options": [
             "Tô Hoài",
             "Nguyễn Minh Châu",
-            "Tô Hoài",
+            "Nam Cao",
             "Tạ Duy Anh"
           ],
           "answer": "Tô Hoài",

@@ -34,10 +34,10 @@ function Home() {
         </p>
         <div className="flex space-x-4 mt-4">
           <a href="https://github.com/Olatoyan/frontend-quiz-app" target="_blank" rel="noopener noreferrer">
-            <img src="public/github-142-svgrepo-com.svg" alt="Icon Github" className="h-6 w-6" />
+            <img src="/github-142-svgrepo-com.svg" alt="Icon Github" className="h-6 w-6" />
           </a>
           <a href="https://www.frontendmentor.io/challenges/frontend-quiz-app-BE7xkzXQnU" target="_blank" rel="noopener noreferrer">
-            <img src="public/web-svgrepo-com.svg" alt="Web asset" className="h-6 w-6" />
+            <img src="/web-svgrepo-com.svg" alt="Web asset" className="h-6 w-6" />
           </a>
         </div>
         <h1 className="text-[4rem] font-light">22110223 - Bùi Lê Anh Tân</h1>
