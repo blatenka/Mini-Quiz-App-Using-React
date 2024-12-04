@@ -23,7 +23,7 @@ function Home() {
           }`}
         >
           Welcome to the <br />
-          <span className="font-medium">Frontend Quiz!</span>
+          <span className="font-medium">Quiz!</span>
         </h1>
         <p
           className={`mobile:text-[1.8rem] text-[2rem] italic leading-[150%] transition-all duration-300 ${

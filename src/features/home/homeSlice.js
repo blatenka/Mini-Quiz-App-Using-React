@@ -31,6 +31,5 @@ const homeSlice = createSlice({
   },
 });
 
-export const { selectQuiz, selectIcon, setQuizzes, resetMode, setDarkMode } =
-  homeSlice.actions;
+export const { selectQuiz, selectIcon, setQuizzes, resetMode, setDarkMode } = homeSlice.actions;
 export default homeSlice.reducer;

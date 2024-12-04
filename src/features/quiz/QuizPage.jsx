@@ -4,9 +4,10 @@ import { useEffect, useState } from "react";
 import QuizOptions from "./QuizOptions";
 import { useNavigate } from "react-router-dom";
 
-function QuizPage({ question }) {
+function QuizPage({ question, explanation }) {
   const [userAnswer, setUserAnswer] = useState("");
   const [isAnswered, setIsAnswered] = useState(false);
+  const [showExplanation, setShowExplanation] = useState(false);
 
   const { index, questions, chosenAnswer, correctAnswer, score } = useSelector(
     (state) => state.quiz,
@@ -20,6 +21,7 @@ function QuizPage({ question }) {
     if (chosenAnswer === "") setIsAnswered(true);
 
     setUserAnswer(chosenAnswer);
+    setShowExplanation(true);
   }
 
   function nextQuestion() {
@@ -119,6 +121,20 @@ function QuizPage({ question }) {
           </p>
         </div>
       </div>
+      {showExplanation && explanation && (
+        <div className="mt-12">
+          <p style={{ fontSize: "1.5rem", fontWeight: "bold" }}>
+            <strong>Explanation:</strong> {explanation}
+          </p>
+          {question.image && (
+            <img
+              src={question.image}
+              alt="Explanation"
+              style={{ maxWidth: "100%", height: "auto", marginTop: "1rem" }}
+            />
+          )}
+        </div>
+      )}
     </div>
   );
 }

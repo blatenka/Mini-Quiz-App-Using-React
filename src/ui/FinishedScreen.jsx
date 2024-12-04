@@ -1,3 +1,4 @@
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { resetQuiz } from "../features/quiz/quizSlice";
@@ -13,10 +14,10 @@ function FinishedScreen() {
   const navigate = useNavigate();
 
   const bgColors = {
-    HTML: "#FFF1E9",
-    CSS: "#E0FDEF",
-    JavaScript: "#EBF0FF",
-    Accessibility: "#F6E7FF",
+    Math: "#FFF1E9",
+    Science: "#E0FDEF",
+    Coding: "#EBF0FF",
+    Literature: "#F6E7FF",
   };
 
   const bgStyle = {

@@ -1,351 +1,452 @@
 {
   "quizzes": [
     {
-      "title": "HTML",
-      "icon": "/icon-html.svg",
+      "title": "Random",
+      "icon": "random-2dice-svgrepo-com.svg",
+      "questions": []
+    },
+    {
+      "title": "Math",
+      "icon": "math-svgrepo-com.svg",
       "questions": [
         {
-          "question": "What does HTML stand for?",
-          "options": [
-            "Hyper Trainer Marking Language",
-            "Hyper Text Marketing Language",
-            "Hyper Text Markup Language",
-            "Hyper Text Markup Leveler"
-          ],
-          "answer": "Hyper Text Markup Language"
+          "question": "Căn bậc hai của 144 là bao nhiêu?",
+          "options": ["10", "12", "14", "16"],
+          "answer": "12",
+          "explanation": "Căn bậc hai của 144 là 12 vì 12x12=144"
         },
         {
-          "question": "Which of the following is the correct structure for an HTML document?",
-          "options": [
-            "<html><head></head><body></body></html>",
-            "<head><html></html><body></body></head>",
-            "<body><head></head><html></html></body>",
-            "<html><body></body><head></head></html>"
-          ],
-          "answer": "<html><head></head><body></body></html>"
+          "question": "Giá trị của e (Hằng số Euler) đến hai chữ số thập phân là bao nhiêu?",
+          "options": ["3.14", "2.71", "1.11", "1.15"],
+          "answer": "2.71",
+          "explanation": "e là hằng số Euler, có giá trị xấp xỉ 2.71828"
         },
         {
-          "question": "Which HTML element is used to define the title of a document?",
-          "options": ["<head>", "<title>", "<header>", "<top>"],
-          "answer": "<title>"
+          "question": "Định thức của ma trận đơn vị là?",
+          "options": ["1", "4", "9", "0"],
+          "answer": "1",
+          "explanation": "Định thức của ma trận đơn vị là 1, hay thử với ma trận vuông [1] hay [1,0;0,1]"
         },
         {
-          "question": "What is the purpose of the <body> tag in HTML?",
-          "options": [
-            "It defines the document's head section.",
-            "It contains all the content such as text, images, and links.",
-            "It is used to define the main content of an HTML document.",
-            "It specifies the body of the email content in HTML."
-          ],
-          "answer": "It contains all the content such as text, images, and links."
+          "question": "Giải phương trình: 2x + 3 = 11",
+          "options": ["3", "4", "5", "6"],
+          "answer": "4",
+          "explanation": "Giải phương trình: 2x + 3 = 11, ta có: 2x = 11 - 3 = 8, suy ra x = 8/2 = 4"
         },
         {
-          "question": "Which HTML tag is used to create a hyperlink?",
-          "options": ["<hyperlink>", "<link>", "<a>", "<href>"],
-          "answer": "<a>"
+          "question": "Số nguyên tố tiếp theo sau 7 là số nào?",
+          "options": ["9", "10", "11", "13"],
+          "answer": "11",
+          "explanation": "Số nguyên tố là số chỉ có 2 ước là 1 và chính nó. Số nguyên tố tiếp theo sau 7 là 11"
         },
         {
-          "question": "Which tag is used to display images in HTML?",
-          "options": ["<img>", "<image>", "<src>", "<pic>"],
-          "answer": "<img>"
+          "question": "Thể tích của một cầu có bán kính 5 là bao nhiêu?",
+          "options": ["500π/3", "525π/3", "100π/3", "25π"],
+          "answer": "500π/3",
+          "explanation": "Thể tích của một cầu có bán kính 5 là 500π/3 với công thức 4πr^3/3"
         },
         {
-          "question": "What attribute is used to provide the path of an image in the <img> tag?",
-          "options": ["link", "src", "href", "url"],
-          "answer": "src"
+          "question": "Tổng các góc trong một hình vuông là bao nhiêu?",
+          "options": ["90 độ", "180 độ", "270 độ", "360 độ"],
+          "answer": "360 độ",
+          "explanation": "Tổng các góc trong một hình vuông là 360 độ, 4 góc 90 độ hay tổng các góc của 1 tứ giác là 360 độ"
         },
         {
-          "question": "Which HTML tag is used to create an unordered list?",
-          "options": ["<ul>", "<ol>", "<list>", "<li>"],
-          "answer": "<ul>"
+          "question": "Thứ 4 ngày 11 tháng 12 năm 2024 là ngày thứ thứ 4, vậy năm tiếp theo để ngày 11 tháng 12 năm đó là ngày thứ 4 là năm nào?",
+          "options": ["2031", "2030", "2032", "2033"],
+          "answer": "2030",
+          "explanation": "6 năm, 1 năm ko nhuận có 365 ngày = 52 tuần + 1 ngày, 1 năm nhuận sẽ có 366 ngày = 52 tuần + 2 ngày, cứ 4 năm nhuận 1 lần. Năm 2024 là năm nhuận suy ra năm 2028 nhuận, đến năm 2028 thì ta đã dư 5 ngày, thì cần thêm 2 năm k nhuận nữa."
         },
         {
-          "question": "What does the <br> tag do?",
-          "options": [
-            "It breaks the text into two sections.",
-            "It creates a bold text.",
-            "It inserts a line break.",
-            "It adds a new row in a table."
-          ],
-          "answer": "It inserts a line break."
+          "question": "Giá trị của 7 giai thừa (7!) là bao nhiêu?",
+          "options": ["5040", "4030", "3020", "2010"],
+          "answer": "5040",
+          "explanation": "7 giai thừa (7!) là 5040 vì 7x6x5x4x3x2x1=5040"
         },
         {
-          "question": "In HTML, what does the `fieldset` tag do?",
-          "options": [
-            "It is used to group related data in a form.",
-            "It sets the field to a fixed size.",
-            "It automatically validates the fields within a form.",
-            "It hides the fields in a form."
-          ],
-          "answer": "It is used to group related data in a form."
+          "question": "Cạnh góc vuông còn lại của một tam giác vuông có hai cạnh là 25 và 15 là bao nhiêu?",
+          "options": ["16", "20", "25", "400"],
+          "answer": "20",
+          "explanation": "25^2 - 15^2 = 625 - 225 = 400, căn bậc hai của 400 là 20, 20^2 = 400"
+        },
+        {
+          "question": "Cho v,e,f lần lượt là đỉnh, cạnh, mặt của khối đa diện. Công thức euler là gì?",
+          "options": ["v-e+f=2", "v-e+f=0", "v-e+f=1", "v-e+f=-1"],
+          "answer": "v-e+f=2",
+          "explanation": "Công thức euler là v-e+f=2"
+        },
+        {
+          "question": "Quy tắc l'hopital thường dùng để giải những dạng toán nào?",
+          "options": ["Tính xác xuất", "Giới hạn dạng vô định", "Tìm diện tích miền giới hạn", "Giải phương trình vi phân"],
+          "answer": "Giới hạn dạng vô định",
+          "explanation": "Quy tắc l'hopital thường dùng để giải những dạng toán có giới hạn dạng vô định, cụ thể là giới hạn của hàm phân thức có giới hạn 0/0 hoặc vô cùng/vô cùng",
+          "image": "public/l'Hopital.jpg"
+        },
+        {
+          "question": "Số tiếp theo của 8,12,24,60 là số nào?",
+          "options": ["120", "180", "240", "360"],
+          "answer": "180",
+          "explanation": "Số tiếp theo của 8,12,24,60 là 180 vì 8x1.5=12, 12x2=24, 24x2.5=60, 60x3=180"
+        },
+        {
+          "question": "Tìm chữ số tận cùng của 1! + 2! + 3! + 4! + 5! +...+ 2024! + 1 ",
+          "options": ["9", "0", "4", "2"],
+          "answer": "4",
+          "explanation": "Bạn hãy để ý từ 5! trở đi, chữ số tận cùng của các số đó là 0, do đó bạn chỉ tính từ 1! đến 4! rồi cộng thêm 1, tức là 1+2+6+24+1=34, chữ số tận cùng là 4"
+        },
+        {
+          "question": "Lấy 1000 chia cho 0, kết quả là bao nhiêu?",
+          "options": ["0", "1000", "1", "vô định"],
+          "answer": "vô định",
+          "explanation": "Lấy 1000 chia cho 0, kết quả là vô định vì không có số nào chia hết cho 0"
+        },
+        {
+          "question": "Số lớn nhất có 5 chữ số chia hết cho 7 là số nào?",
+          "options": ["99995", "99996", "99997", "99999"],
+          "answer": "99996",
+          "explanation": "Số lớn nhất có 5 chữ số chia hết cho 7 là 99995."
+        },
+        {
+          "question": "Từ các số 2, 3, 7, 8 có thể lập được bao nhiêu số chính phương?",
+          "options": ["0", "1", "2", "3"],
+          "answer": "0",
+          "explanation": "Không có số chính phương nào có chữ số tận cùng là các số đó."
+        },
+        {
+          "question": "Nếu tổng của hai số tự nhiên là một số lẻ, thì tích của chúng là số gì?",
+          "options": ["lẻ", "chẵn", "vô định", "không xác định"],
+          "answer": "chẵn",
+          "explanation": "Nếu tổng của hai số tự nhiên là một số lẻ, sẽ có dạng a+b=2k+1, với k là số tự nhiên. Khi đó a.b=2k(k+1), là số chẵn"
+        },
+        {
+          "question": "Trong hệ thập phân, số một triệu tỷ được viết bởi một chữ số 1 và mấy chữ số 0 phía sau?",
+          "options": ["21", "22", "23", "24"],
+          "answer": "24",
+          "explanation": "1 triệu là 6 số 0, 1 tỷ là 9 số không, 1 triệu tỷ tỷ là 6 + 9 + 9 = 24"
+        },
+        {
+          "question": "Tìm A, biết A là tích của B và C, trong đó B là tổng của ba số nguyên tố đầu tiên, C là số nguyên tố thứ 4.",
+          "options": ["70", "80", "90", "100"],
+          "answer": "70",
+          "explanation": "B=2+3+5=10, C=11, A=10x11=110, các số nguyên tố đầu tiên là 2, 3, 5, 7, 11"
         }
       ]
     },
     {
-      "title": "CSS",
-      "icon": "/icon-css.svg",
+      "title": "Science",
+      "icon": "science-svgrepo-com.svg",
       "questions": [
         {
-          "question": "What does CSS stand for?",
+          "question": "Quá trình quang hợp của cây sẽ sinh ra khí Oxi từ đâu?",
           "options": [
-            "Colorful Style Sheets",
-            "Computer Style Sheets",
-            "Cascading Style Sheets",
-            "Creative Style Sheets"
+            "Từ khí CO2 mà cây hấp thụ",
+            "Từ nước mà cây hấp thụ",
+            "Từ hư không",
+            "Từ ánh sáng mặt trời"
           ],
-          "answer": "Cascading Style Sheets"
+          "answer": "Từ nước mà cây hấp thụ",
+          "explanation": "Quá trình quang hợp cây sẽ hấp thự khí CO2 và kết hợp với H2 từ H20 tạo nên Xenlulozon hay quá trình quang phân lý nước, phần Oxi đi ra chính là từ nước"
         },
         {
-          "question": "Which HTML attribute is used to define inline styles?",
-          "options": ["styles", "style", "class", "font-style"],
-          "answer": "style"
+          "question": "Quá trình máu khi đung nóng lên sẽ trở thành huyết có màu xám mà ta hay ăn gọi là gì?",
+          "options": ["Đông tụ", "Ngưng tụ", "Lên men", "Oxi hóa"],
+          "answer": "Đông tụ",
+          "explanation": "Khi đun nóng hoặc cho axit, bazơ hay một số muối vào dung dịch protein, protein sẽ đông tụ lại, tách ra khỏi dung dịch. Ta gọi đó là sự đông tụ protein."
         },
         {
-          "question": "How do you insert a comment in a CSS file?",
+          "question": "Tên của nhà bác học nào được đặt cho hằng số sau: 6,625^10-34 J/s?",
           "options": [
-            "// this is a comment //",
-            "/* this is a comment */",
-            "-- this is a comment --",
-            "<!-- this is a comment -->"
+            "Max Planck",
+            "Albert Einstein",
+            "Niels Bohr",
+            "Isaac Newton"
           ],
-          "answer": "/* this is a comment */"
+          "answer": "Max Planck",
+          "explanation": "Max Planck là nhà vật lý người Đức, người đầu tiên đưa ra khái niệm lượng tử, hằng số Planck được đặt theo tên ông. Được dùng trong tính năng lượng photon ứng với tần số cho trước"
         },
         {
-          "question": "Which property is used to change the background color of an element?",
-          "options": ["color", "bgcolor", "background-color", "background"],
-          "answer": "background-color"
+          "question": "1 giờ đồng hồ ứng với bao nhiêu độ kinh tuyến?",
+          "options": ["15 độ", "30 độ", "45 độ", "60 độ"],
+          "answer": "15 độ",
+          "explanation": "1 giờ đồng hồ ứng với 15 độ kinh tuyến vì 360 độ / 24 giờ = 15 độ/giờ"
         },
         {
-          "question": "How do you apply a style to all <p> elements?",
-          "options": ["p { }", ".p { }", "#p { }", "all.p { }"],
-          "answer": "p { }"
+          "question": "Trong tế bào, chất hữu cơ nào có khả năng tự nhân đôi?",
+          "options": ["ADN", "ARN", "Prôtêin", "Cacbonhiđrat"],
+          "answer": "ADN",
+          "explanation": "ADN có khả năng tự nhân đôi, giúp truyền đạt thông tin di truyền cho thế hệ sau"
         },
         {
-          "question": "Which property is used to change the font of an element?",
-          "options": ["font-style", "text-style", "font-family", "typeface"],
-          "answer": "font-family"
+          "question": "Loài động vật có vú duy nhất nào có mặt trên tất cả các đại lục?",
+          "options": ["Hươu", "Thỏ", "Khỉ", "Chó"],
+          "answer": "Thỏ",
+          "explanation": "Thỏ là loài động vật có vú duy nhất có mặt trên tất cả các đại lục"
         },
         {
-          "question": "How do you make each word in a text start with a capital letter?",
+          "question": "Loại muối tan của chì khi nung nóng phân hủy ra oxi và NO2 là muối gì?",
           "options": [
-            "text-transform: capitalize",
-            "text-transform: uppercase",
-            "text-style: capital",
-            "font-transform: capitalize"
+            "Pb(NO3)2",
+            "Pb(NO2)2",
+            "PbCl2",
+            "Pb(HSO4)2"
           ],
-          "answer": "text-transform: capitalize"
+          "answer": "Pb(NO2)2",
+          "explanation": "Muối tan của chì khi nung nóng phân hủy ra oxi và NO2 là muối nitrit chì (II)"
         },
         {
-          "question": "How do you select an element with the class name 'header'?",
-          "options": [".header", "#header", "header", "*header"],
-          "answer": ".header"
+          "question": "Một con cá vàng sẽ biến thành màu gì nếu ta giữ mãi nó trong bóng tối?",
+          "options": ["Màu vàng", "Màu đen", "Màu xanh", "Màu trắng"],
+          "answer": "Màu trắng",
+          "explanation": "Chính xác hơn là màu của nó sẽ nhạt dần nên có vẻ giống màu trắng, vì cá vàng cần ánh sáng tự nhiên hoặc nhân tạo để tạo ra sắc tối màu."
         },
         {
-          "question": "What is the default value of the 'position' property?",
-          "options": ["relative", "fixed", "absolute", "static"],
-          "answer": "static"
+          "question": "Thân cây chuối thực chất là bộ phận nào của cây chuối?",
+          "options": ["Củ", "Thân là thân", "Cuốn lá", "Cùi chuối"],
+          "answer": "Củ",
+          "explanation": "Thân cây chuối thực sự là củ, vì thân chính của nó nằm dưới mặt đất, còn cái thân giả mà trên mặt đất là do bẹ lá của cây chuối tạo thành."
         },
         {
-          "question": "What is the purpose of the z-index property in CSS?",
+          "question": "Quá trình gây ra giảm số oxi hóa của một nguyên tố gọi là gì?",
           "options": [
-            "To count the number of elements",
-            "To set the magnification level of an element",
-            "To specify the stack order of an element",
-            "To create a zoom effect"
+            "Khử",
+            "Oxi hóa",
+            "Thế",
+            "Phản ứng oxi hóa khử"
           ],
-          "answer": "To specify the stack order of an element"
+          "answer": "Khử",
+          "explanation": "Khử là quá trình gây ra giảm số oxi hóa của một nguyên tố, là quá trình nhận electron nên số oxi hóa giảm"
         }
       ]
     },
     {
-      "title": "JavaScript",
-      "icon": "/icon-js.svg",
+      "title": "Coding",
+      "icon": "coding-html-svgrepo-com.svg",
       "questions": [
         {
-          "question": "Which syntax is correct to output 'Hello World' in an alert box?",
+          "question": "Trong C++ đoạn mã: a = a<<2 tương đương với lệnh nào?",
           "options": [
-            "alertBox('Hello World');",
-            "msg('Hello World');",
-            "alert('Hello World');",
-            "msgBox('Hello World');"
+            "a = a*4",
+            "if (a<2) return true",
+            "a = a + 2",
+            "a = 2"
           ],
-          "answer": "alert('Hello World');"
+          "answer": "a = a*4",
+          "explanation": "a<<2 tương đương với phép dời bit sang trái trong hệ nhị phân, dời 2 bit nghĩa là nhân 4"
         },
         {
-          "question": "How do you call a function named 'myFunction'?",
+          "question": "Trong JavaScript, cái nào không phải là kiểu dữ liệu nguyên thủy?",
           "options": [
-            "call function myFunction()",
-            "call myFunction()",
-            "myFunction()",
-            "execute myFunction()"
+            "String",
+            "Number",
+            "Object",
+            "Boolean"
           ],
-          "answer": "myFunction()"
+          "answer": "Object",
+          "explanation": "Trong JavaScript, kiểu dữ liệu nguyên thủy bao gồm String, Number, và Boolean. Object là kiểu dữ liệu tham chiếu, không phải nguyên thủy."
         },
         {
-          "question": "How to write an IF statement in JavaScript?",
-          "options": ["if i = 5 then", "if (i == 5)", "if i == 5", "if i = 5"],
-          "answer": "if (i == 5)"
-        },
-        {
-          "question": "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+          "question": "Kết quả của biểu thức 5 + '5' trong JavaScript là gì?",
           "options": [
-            "if (i <> 5)",
-            "if i =! 5 then",
-            "if (i != 5)",
-            "if i not = 5"
+            "55",
+            "10",
+            "NaN",
+            "Error"
           ],
-          "answer": "if (i != 5)"
+          "answer": "55",
+          "explanation": "Trong JavaScript, khi cộng một số và một chuỗi, phép cộng sẽ chuyển số thành chuỗi và kết quả là chuỗi '55'."
         },
         {
-          "question": "How does a FOR loop start?",
+          "question": "Trong Python, lệnh nào dưới đây sẽ trả về True nếu một danh sách rỗng?",
           "options": [
-            "for (i = 0; i <= 5)",
-            "for i = 1 to 5",
-            "for (i <= 5; i++)",
-            "for (i = 0; i <= 5; i++)"
+            "if len([]) == 0",
+            "if [] == None",
+            "if not []",
+            "if []"
           ],
-          "answer": "for (i = 0; i <= 5; i++)"
+          "answer": "if not []",
+          "explanation": "Trong Python, một danh sách rỗng được coi là False trong điều kiện, vì vậy lệnh if not [] sẽ trả về True."
         },
         {
-          "question": "How can you add a comment in a JavaScript?",
+          "question": "Trong SQL, từ khóa nào được sử dụng để loại bỏ bản sao trong kết quả truy vấn?",
           "options": [
-            "'This is a comment",
-            "//This is a comment",
-            "<!--This is a comment-->",
-            "/* This is a comment */"
+            "SELECT DISTINCT",
+            "SELECT UNIQUE",
+            "SELECT DIFFERENT",
+            "SELECT NO_DUPLICATES"
           ],
-          "answer": "//This is a comment"
+          "answer": "SELECT DISTINCT",
+          "explanation": "SELECT DISTINCT được sử dụng để loại bỏ các bản sao trong kết quả truy vấn và chỉ trả về các bản ghi duy nhất."
         },
         {
-          "question": "What is the correct way to write a JavaScript array?",
+          "question": "Trong C, hàm malloc() được sử dụng để làm gì?",
           "options": [
-            "var colors = (1:'red', 2:'green', 3:'blue')",
-            "var colors = ['red', 'green', 'blue']",
-            "var colors = 'red', 'green', 'blue'",
-            "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+            "Cấp phát bộ nhớ động",
+            "Giải phóng bộ nhớ",
+            "Nhập dữ liệu từ file",
+            "Truyền dữ liệu vào hàm"
           ],
-          "answer": "var colors = ['red', 'green', 'blue']"
+          "answer": "Cấp phát bộ nhớ động",
+          "explanation": "Hàm malloc() trong C được sử dụng để cấp phát bộ nhớ động và trả về con trỏ trỏ đến vùng bộ nhớ đã được cấp phát."
         },
         {
-          "question": "How do you find the number with the highest value of x and y?",
+          "question": "Trong OOP, phương pháp kế thừa cho phép lớp con làm gì?",
           "options": [
-            "Math.ceil(x, y)",
-            "top(x, y)",
-            "Math.max(x, y)",
-            "Math.highest(x, y)"
+            "Thừa kế tất cả các thuộc tính và phương thức từ lớp cha",
+            "Tạo ra lớp mới mà không cần kế thừa từ lớp cha",
+            "Thay đổi toàn bộ thuộc tính trong lớp cha",
+            "Thêm thuộc tính vào lớp cha"
           ],
-          "answer": "Math.max(x, y)"
+          "answer": "Thừa kế tất cả các thuộc tính và phương thức từ lớp cha",
+          "explanation": "Kế thừa cho phép lớp con nhận tất cả các thuộc tính và phương thức từ lớp cha mà không cần khai báo lại."
         },
         {
-          "question": "Which operator is used to assign a value to a variable?",
-          "options": ["-", "*", "=", "x"],
-          "answer": "="
-        },
-        {
-          "question": "What is the correct way to write a JavaScript object?",
+          "question": "Trong Python, kết quả của phép toán 5 / 2 là gì?",
           "options": [
-            "var person = {firstName: 'John', lastName: 'Doe'};",
-            "var person = {firstName = 'John', lastName = 'Doe'};",
-            "var person = (firstName: 'John', lastName: 'Doe');",
-            "var person = (firstName = 'John', lastName = 'Doe');"
+            "2.5",
+            "2",
+            "2.0",
+            "3"
           ],
-          "answer": "var person = {firstName: 'John', lastName: 'Doe'};"
+          "answer": "2.5",
+          "explanation": "Trong Python 3, phép chia luôn trả về kết quả dạng float, vì vậy 5 / 2 sẽ trả về 2.5."
+        },
+        {
+          "question": "Trong C++, từ khóa nào được sử dụng để khai báo một biến không thể thay đổi giá trị?",
+          "options": [
+            "static",
+            "const",
+            "final",
+            "immutable"
+          ],
+          "answer": "const",
+          "explanation": "Từ khóa 'const' trong C++ được sử dụng để khai báo các biến không thể thay đổi giá trị sau khi được khởi tạo."
+        },
+        {
+          "question": "Kết quả của biểu thức [1,2,3] == [1,2,3] trong JavaScript là gì?",
+          "options": [
+            "true",
+            "false",
+            "NaN",
+            "undefined"
+          ],
+          "answer": "false",
+          "explanation": "Trong JavaScript, so sánh mảng bằng toán tử == sẽ trả về false, vì các mảng là đối tượng tham chiếu và không so sánh theo giá trị mà so sánh theo địa chỉ bộ nhớ."
         }
       ]
     },
     {
-      "title": "Accessibility",
-      "icon": "/icon-accessibility.svg",
+      "title": "Literature",
+      "icon": "book-svgrepo-com.svg",
       "questions": [
         {
-          "question": "What does 'WCAG' stand for?",
+          "question": "Ai là tác giả của tác phẩm 'Chí Phèo'?",
           "options": [
-            "Web Content Accessibility Guidelines",
-            "Web Compliance Accessibility Guide",
-            "Web Content Accessibility Goals",
-            "Website Compliance and Accessibility Guidelines"
+            "Nguyễn Du",
+            "Nam Cao",
+            "Tô Hoài",
+            "Phạm Duy"
           ],
-          "answer": "Web Content Accessibility Guidelines"
+          "answer": "Nam Cao",
+          "explanation": "'Chí Phèo' là một trong những tác phẩm nổi tiếng của nhà văn **Nam Cao**, phản ánh sự tha hóa của con người trong xã hội phong kiến và nạn áp bức của giai cấp thống trị."
         },
         {
-          "question": "Which element is used to provide alternative text for images for screen reader users?",
+          "question": "Tác phẩm 'Truyện Kiều' được sáng tác bởi ai?",
           "options": [
-            "<alt>",
-            "<figcaption>",
-            "<description>",
-            "<img alt='description'>"
+            "Nguyễn Du",
+            "Tô Hoài",
+            "Nguyễn Đình Chiểu",
+            "Phan Bội Châu"
           ],
-          "answer": "<img alt='description'>"
+          "answer": "Nguyễn Du",
+          "explanation": "'Truyện Kiều' là tác phẩm bất hủ của **Nguyễn Du**, kể về cuộc đời đầy bi kịch của nàng Kiều, một trong những tác phẩm văn học cổ điển nổi bật của Việt Nam."
         },
         {
-          "question": "What does ARIA stand for in web development?",
+          "question": "Trong tác phẩm 'Tắt đèn', nhân vật nào là người đứng đầu gia đình nghèo khổ?",
           "options": [
-            "Accessible Rich Internet Applications",
-            "Advanced Responsive Internet Assistance",
-            "Accessible Responsive Internet Applications",
-            "Automated Responsive Internet Actions"
+            "Chị Dậu",
+            "Chí Phèo",
+            "Mị",
+            "Lão Hạc"
           ],
-          "answer": "Accessible Rich Internet Applications"
+          "answer": "Chị Dậu",
+          "explanation": "Nhân vật **Chị Dậu** trong 'Tắt đèn' của **Ngô Tất Tố** là hình mẫu người phụ nữ chịu nhiều đắng cay nhưng vẫn mạnh mẽ đấu tranh vì gia đình trong bối cảnh xã hội phong kiến."
         },
         {
-          "question": "Which of the following is not a principle of the WCAG?",
+          "question": "Ai là tác giả của tác phẩm 'Lão Hạc'?",
           "options": [
-            "Perceivable",
-            "Dependable",
-            "Operable",
-            "Understandable"
+            "Nam Cao",
+            "Tô Hoài",
+            "Nguyễn Minh Châu",
+            "Nguyễn Công Hoan"
           ],
-          "answer": "Dependable"
+          "answer": "Nam Cao",
+          "explanation": "Tác phẩm 'Lão Hạc' là của **Nam Cao**, phản ánh cuộc sống khốn khổ của người nông dân và sự đau đớn của người lão khi phải lựa chọn giữa tình yêu thương và cái đói nghèo."
         },
         {
-          "question": "Which of these color contrast ratios defines the minimum WCAG 2.1 Level AA requirement for normal text?",
-          "options": ["3:1", "4.5:1", "7:1", "2:1"],
-          "answer": "4.5:1"
-        },
-        {
-          "question": "Which of the following elements is inherently focusable, meaning it can receive focus without a 'tabindex' attribute?",
-          "options": ["<div>", "<span>", "<a href='...'>", "<p>"],
-          "answer": "<a href='...'>"
-        },
-        {
-          "question": "What is the purpose of the 'lang' attribute in an HTML page?",
+          "question": "Tác phẩm 'Mùa Lúa Chín' của ai?",
           "options": [
-            "To specify the scripting language",
-            "To define the character set",
-            "To indicate the language of the page content",
-            "To declare a language pack"
+            "Tô Hoài",
+            "Nam Cao",
+            "Nguyễn Tuân",
+            "Nguyễn Huy Tưởng"
           ],
-          "answer": "To indicate the language of the page content"
+          "answer": "Tô Hoài",
+          "explanation": "'Mùa Lúa Chín' của **Tô Hoài** là một tác phẩm nổi bật về cuộc sống của người dân miền núi, đặc biệt là sự mô tả sinh động về con người và thiên nhiên."
         },
         {
-          "question": "Which guideline ensures that content is accessible by keyboard as well as by mouse?",
+          "question": "Nhân vật chính trong tác phẩm 'Đoàn tùy tùng' là ai?",
           "options": [
-            "Keyboard Accessible",
-            "Mouse Independence",
-            "Device Independence",
-            "Operable Controls"
+            "Tự Lực Văn Đoàn",
+            "Tô Hoài",
+            "Vũ Trọng Phụng",
+            "Nguyễn Minh Châu"
           ],
-          "answer": "Keyboard Accessible"
+          "answer": "Tô Hoài",
+          "explanation": "'Đoàn tùy tùng' là tác phẩm của **Tô Hoài**, một trong những tác phẩm nổi bật của ông phản ánh tinh thần chiến đấu và cuộc sống trong xã hội Việt Nam cũ."
         },
         {
-          "question": "What is the role of 'skip navigation' links in web accessibility?",
+          "question": "Tác phẩm 'Số đỏ' được viết bởi ai?",
           "options": [
-            "To skip over primary navigation to the main content",
-            "To provide shortcuts to different sections of the website",
-            "To help users skip unwanted sections like advertisements",
-            "To bypass broken links in the navigation"
+            "Vũ Trọng Phụng",
+            "Nam Cao",
+            "Nguyễn Huy Tưởng",
+            "Tô Hoài"
           ],
-          "answer": "To skip over primary navigation to the main content"
+          "answer": "Vũ Trọng Phụng",
+          "explanation": "'Số đỏ' của **Vũ Trọng Phụng** là tác phẩm phê phán gay gắt các thói hư tật xấu trong xã hội Hà Nội những năm 1930-1940, đặc biệt là những mối quan hệ trong tầng lớp thượng lưu."
         },
         {
-          "question": "Which of these tools can help in checking the accessibility of a website?",
+          "question": "Nhân vật chính trong tác phẩm 'Cô gái đến từ hôm qua' là ai?",
           "options": [
-            "W3C Validator",
-            "Google Lighthouse",
-            "CSS Validator",
-            "JavaScript Console"
+            "Trịnh Công Sơn",
+            "Nguyễn Nhật Ánh",
+            "Nguyễn Huy Thiệp",
+            "Dương Tường"
           ],
-          "answer": "Google Lighthouse"
+          "answer": "Nguyễn Nhật Ánh",
+          "explanation": "'Cô gái đến từ hôm qua' là tác phẩm nổi tiếng của **Nguyễn Nhật Ánh**, viết về tình yêu và những kỷ niệm đẹp của tuổi học trò."
+        },
+        {
+          "question": "Tác phẩm 'Vợ chồng A Phủ' là của ai?",
+          "options": [
+            "Tô Hoài",
+            "Nguyễn Minh Châu",
+            "Tô Hoài",
+            "Tạ Duy Anh"
+          ],
+          "answer": "Tô Hoài",
+          "explanation": "'Vợ chồng A Phủ' là một trong những tác phẩm đặc sắc của **Tô Hoài**, miêu tả một cuộc đời bi thảm nhưng đầy nghị lực của người phụ nữ miền núi."
+        },
+        {
+          "question": "Tác phẩm 'Nỗi buồn chiến tranh' của ai?",
+          "options": [
+            "Bảo Ninh",
+            "Nguyễn Minh Châu",
+            "Nguyễn Huy Tưởng",
+            "Vũ Trọng Phụng"
+          ],
+          "answer": "Bảo Ninh",
+          "explanation": "'Nỗi buồn chiến tranh' của **Bảo Ninh** là một tác phẩm nổi bật về chiến tranh Việt Nam, khắc họa sâu sắc nỗi đau chiến tranh qua mắt của một người lính trở về từ chiến trường."
         }
       ]
     }
